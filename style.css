@@ -1,3 +1,6 @@
+html {
+	overflow: hidden;
+}
 
 html, body {
 	height: 100%;
@@ -65,5 +68,92 @@ a:hover {
 ul {
 	padding-inline-start: 0;
 	list-style: none;
+}
+
+/* DuckDuckGo */
+
+#sxd {
+	display: none;
+}
+
+/* #search_form_homepage { */
+/*   float:none; */
+/*   margin:0; */ 
+/*   position: relative; */
+/*   display: block; */
+/* } */
+/* #search_form_homepage:after { */
+/* 	content: ""; */
+/* 	display: table; */
+/* 	clear: both; */
+/* } */
+
+#search_form_input_homepage {
+	float: none;
+	background: transparent;
+	color: #ECEFF4;
+	width: 100%;
+	display: block;
+	height: 39px;
+	padding: 4px 42px 5px 6px;
+	margin: 2;
+	outline: none;
+	border-right: 0;
+	border: 0px solid #8d8d8d;
+	font-size: 18px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	-webkit-box-shadow: 1px 1px 2px #999;
+	-webkit-box-shadow: inset 1px 1px 2px #999;
+	-moz-box-shadow: inset 1px 1px 2px #999;
+	box-shadow: inset 1px 1px 2px #999;
+	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	-ms-box-sizing: border-box;
+ 	-o-box-sizing: border-box;
+ 	box-sizing: border-box;	
+}
+
+.lt-ie8 #search_form_input_homepage {
+	height: 28px;
+}
+
+#search_wrapper_homepage {
+	width:43px;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 3;
+}
+#search_button_homepage {
+	float: left;
+	height: 39px;
+	width: 43px;
+	border: 0;
+	background: url("/assets/search_dropdown_homepage.v102.png") no-repeat;
+	-webkit-background-size: 67px 78px;
+	-moz-background-size: 67px 78px;
+	-o-background-size: 67px 78px;
+	background-size: 67px 78px;
+	cursor: pointer;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+#search_button_homepage:active {
+	background-position: left bottom;
 }
 
