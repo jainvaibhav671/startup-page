@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "href": "https://maitri.bmu.edu.in/login.htm",
+      "name": "College Dashboard"
+    },
+    {
+      "href": "https://classroom.google.com",
+      "name": "Google Classroom"
+    }
+  ],
+
+  [
+    {
+      "href": "https://www.github.com/cse-vaibhav",
+      "name": "cse-vaibhav"
+    },
+    {
+      "href": "https://www.leetcode.com",
+      "name": "LeetCode"
+    }
+  ],
+
+  [
+    {
+      "href": "https://www.myanimelist.com",
+      "name": "MyAnimeList"
+    },
+    {
+      "href": "https://kaa.si",
+      "name": "KAA"
+    },
+    {
+      "href": "https://zoro.tv",
+      "name": "zoro.tv"
+    }
+  ]
+]
