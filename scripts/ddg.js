@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="scripts/main.js" defer></script>
-  </head>
-  <body>
-    <div class="everything">
-      <img alt="" src="koro.gif" id="main-image" />
-      <!-- DuckDuckGo Search Bar -->
-      <div id="duckduckgo">
+let ddgDiv = document.querySelector("#duckduckgo");
+ddgDiv.innerHTML = ```
+      
         <form
-          onsubmit="return searchb()"
+          onSubmit="return searchb()"
           id="search_form_homepage"
           class="no-menu"
           name="x"
@@ -28,12 +18,13 @@
             autocomplete="off"
             name="q"
             id="search_form_input_homepage"
-            onfocus="if ('rc' in window) {nua('nro',rc)};fq=1;"
-            onblur="fq=0"
+            onFocus="if ('rc' in window) {nua('nro',rc)};fq=1;"
+            onBlur="fq=0"
             onclick="if (this.value=='put search terms here') {this.value='';this.style.color='#000000';}"
             value=""
             placeholder="Search DuckDuckGo"
           />
+
           <script type="text/javascript">
             var tracking = new RegExp("[\?\&]t=([^\&]+)");
             var form = document.getElementById("search_form_homepage");
@@ -126,44 +117,5 @@
             }
           </script>
         </form>
-      </div>
-      <div id="duckduckgo"></div>
-      <div class="links">
-        <div class="container" id="university">
-          <ul class="item">
-            <li>
-              <a href="https://maitri.bmu.edu.in/">College Dashboard</a>
-            </li>
-            <li>
-              <a href="https://classroom.google.com">Google Classroom</a>
-            </li>
-          </ul>
-        </div>
-        <div class="container" id="coding">
-          <ul class="item">
-            <li>
-              <a href="https://github.com/cse-vaibhav">cse-vaibhav</a>
-            </li>
-            <li>
-              <a href="https://leetcode.com">LeetCode</a>
-            </li>
-          </ul>
-        </div>
-        <div class="container" id="anime">
-          <ul class="item">
-            <li>
-              <a href="https://www.myanimelist.net">MyAnimeList</a>
-            </li>
-            <li>
-              <a href="https://kaa.si">KAA</a>
-            </li>
-            <li>
-              <a href="https://zoro.to">zoro.to</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- <div class="links"></div> -->
-    </div>
-  </body>
-</html>
+      ```
+

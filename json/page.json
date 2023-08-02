@@ -1,0 +1,62 @@
+{
+  "main-image": {
+    "src": "koro.gif",
+    "alt": "koro"
+  },
+
+  "links": [
+    [
+      {
+        "href": "https://maitri.bmu.edu.in/login.htm",
+        "text": "College Dashboard"
+      },
+      {
+        "herf": "https://classroom.google.com",
+        "text": "Google Classroom"
+      }
+    ],
+
+    [
+      {
+        "href": "https://www.github.com/cse-vaibhav",
+        "text": "cse-vaibhav"
+      },
+      {
+        "href": "https://www.leetcode.com",
+        "text": "LeetCode"
+      }
+    ],
+
+    [
+      {
+        "href": "https://www.myanimelist.com",
+        "text": "MyAnimeList"
+      },
+      {
+        "href": "https://kaa.si",
+        "text": "KAA"
+      },
+      {
+        "href": "https://zoro.tv",
+        "text": "zoro.tv"
+      }
+    ]
+  ],
+
+  "links": {
+    "Anime": {
+      "anime-list": {
+        "href": "https://www.myanimelist.com",
+        "text": "MyAnimeList"
+      },
+      "KickAssAnime": {
+        "href": "https://kaa.si",
+        "text": "KAA"
+      },
+      "Zoro.tv": {
+        "href": "https://zoro.tv",
+        "text": "zoro.tv"
+      }
+    }
+  }
+}
