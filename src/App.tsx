@@ -1,4 +1,4 @@
-import koro from "../public/koro.gif";
+import koro from "/koro.gif";
 import links from "../json/page.json";
 import { useEffect, useState } from "react";
 
@@ -46,7 +46,12 @@ function DateTime() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <div>{time.toString()}</div>;
+  return (
+    <div className="text-slate-100 text-lg font-bold">
+      <span>{time[0]} : </span>
+      <span>{time[1]}</span>
+    </div>
+  );
 }
 
 function App() {
