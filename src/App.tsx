@@ -1,11 +1,23 @@
 import koro from "/koro.gif";
-import links from "../json/page.json";
 
 import { CardInterface, Card } from "@/components/Card";
 import { DateTime } from "@/components/DateTime";
+import { useEffect, useState } from "react";
 
 function App() {
-  const data: CardInterface[][] = links as CardInterface[][];
+  const [data, setData] = useState<CardInterface[][]>([]);
+
+  useEffect(() => {
+    async function func() {
+      const d: CardInterface[][] = await fetch("/page.json").then((res) =>
+        res.json()
+      );
+
+      setData(d);
+    }
+
+    func();
+  });
 
   return (
     <div className="flex flex-col gap-4 items-center justify-center w-screen h-screen bg-slate-800">
