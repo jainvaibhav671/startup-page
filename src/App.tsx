@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     async function func() {
-      const d: CardInterface[][] = await fetch("/page.json").then((res) =>
+      const d: CardInterface[][] = await fetch("page.json").then((res) =>
         res.json()
       );
 
