@@ -14,7 +14,7 @@ export const appRouter = trpc.router({
     let res = [];
     for (let item of childs.slice(0, childs.length - 1)) {
 
-      console.log(item.child_database.title)
+      // console.log(item.child_database.title)
 
       const x = await notion.databases.query({
         database_id: item.id
@@ -27,7 +27,7 @@ export const appRouter = trpc.router({
       })
     }
 
-    console.log("Response:", res)
+    // console.log("Response:", res)
 
     return res
   })
